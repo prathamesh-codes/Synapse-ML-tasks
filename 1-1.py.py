@@ -5,7 +5,7 @@ decoded_names = []
 for e in enumerate(jumbled_superheroes):
     decoded_names.append(str.lower(e[1]).replace('_'," "))
     indices.append(e[0])
-    print(f"{e[0]}. {decoded_names[e[0]]}")
+    #print(f"{e[0]}. {decoded_names[e[0]]}")
 
 
 func = lambda input: len(input)
